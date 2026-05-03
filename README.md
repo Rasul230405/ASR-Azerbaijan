@@ -49,6 +49,7 @@ git clone git@github.com:Rasul230405/az_stt_intern.git (HTTPS üçün: https://g
 cd az-stt-intern
 
 **2. Virtual mühit yaradın və aktivləşdirin:**
+
 Linux/MacOS üçün:
 ```bash
 python3 -m venv venv
@@ -67,12 +68,14 @@ pip install -r requirements.txt
 ```
 
 **4. Skriptləri run etmək üçün:**
+
 Baza modelinin testi (Hissə A):
 ```bash
 python3 part_a/part_a.py
 ```
 
 Fine-Tuning (Hissə B):
+
 (Modeli training etmək və adapter yaratmaq üçün)
 ```bash
 python3 part_b/part_b1_2.py
