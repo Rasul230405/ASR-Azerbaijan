@@ -50,23 +50,35 @@ cd az-stt-intern
 
 **2. Virtual mühit yaradın və aktivləşdirin:**
 Linux/MacOS üçün:
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 Windows üçün:
-python -m venv venv
+```bash
+python3 -m venv venv
 venv\Scripts\activate
+```
 
 **3. Tələb olunan dependency-ləri quraşdırın:**
+```bash
 pip install -r requirements.txt
+```
 
 **4. Skriptləri run etmək üçün:**
 Baza modelinin testi (Hissə A):
-python part_a/part_a.py
+```bash
+python3 part_a/part_a.py
+```
 
 Fine-Tuning (Hissə B):
 (Modeli training etmək və adapter yaratmaq üçün)
-python part_b/part_b1_2.py
+```bash
+python3 part_b/part_b1_2.py
+```
 
 (Training olunmuş yeni modeli test etmək üçün)
-python part_b/part_b3.py
+```bash
+python3 part_b/part_b3.py
+```
