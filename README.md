@@ -45,8 +45,10 @@ az-stt-intern/
 ## Kodu İşə Salmaq Üçün Addımlar (Setup & Run)
 
 **1. Repository-ni klonlayın:**
+```bash
 git clone git@github.com:Rasul230405/az_stt_intern.git (HTTPS üçün: https://github.com/Rasul230405/az_stt_intern.git)
 cd az-stt-intern
+```
 
 **2. Virtual mühit yaradın və aktivləşdirin:**
 
