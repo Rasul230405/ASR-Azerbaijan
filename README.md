@@ -52,6 +52,7 @@ git clone git@github.com:Rasul230405/az_stt_intern.git
 cd az_stt_intern
 ```
 
+ya da
 HTTPS:
 ```bash
 git clone https://github.com/Rasul230405/az_stt_intern.git
