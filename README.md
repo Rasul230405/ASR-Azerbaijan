@@ -38,8 +38,9 @@ Test nəticələri:
 az-stt-intern/
 ├── README.md            # Qısa izahat + nəticələr
 ├── part_a/              # Hissə A 
-├── part_b/              # Hissə B
+├── part_b/              # Hissə B kodları və model
 ├── results/             # WER/CER cədvəlləri, qrafikləri
+├── voice_dataset        # "common voice" dataseti
 ├── report.pdf           # Hissə C
 └── requirements.txt     # dependencies
 ```
