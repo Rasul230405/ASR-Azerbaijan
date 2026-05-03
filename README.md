@@ -34,6 +34,7 @@ Test nəticələri:
 **Müqayisə:** Baza modeli test edilərkən bəzi hallarda ərəb/fars hərflərinə tranksripsiya edərək "hallüsinasiya" xətaları vermiş və bu, ümumi WER göstəricisini artırmışdır. Modelin fine-tune edilməsi bu xətaları tamamilə aradan qaldırmışdır. CER göstəricisinin 42.51%-dən 16.70%-ə düşməsi modelin səsləri hərflərə çevirmək qabiliyyətinin əhəmiyyətli dərəcədə yaxşılaşdığını göstərir.
 
 ## Repository Strukturu
+```text
 az-stt-intern/
 ├── README.md            # Qısa izahat + nəticələr
 ├── part_a/              # Hissə A 
@@ -41,6 +42,7 @@ az-stt-intern/
 ├── results/             # WER/CER cədvəlləri, qrafikləri
 ├── report.pdf           # Hissə C
 └── requirements.txt     # dependencies
+```
 
 ## Kodu İşə Salmaq Üçün Addımlar (Setup & Run)
 
