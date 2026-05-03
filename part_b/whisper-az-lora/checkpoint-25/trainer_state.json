@@ -1,0 +1,58 @@
+{
+  "best_global_step": 25,
+  "best_metric": 1.0986666666666667,
+  "best_model_checkpoint": "./whisper-az-lora/checkpoint-25",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 25,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.4,
+      "grad_norm": 8.353553771972656,
+      "learning_rate": 0.0009280000000000001,
+      "loss": 6.662913513183594,
+      "step": 10
+    },
+    {
+      "epoch": 0.8,
+      "grad_norm": 8.734651565551758,
+      "learning_rate": 0.000848,
+      "loss": 4.726372909545899,
+      "step": 20
+    },
+    {
+      "epoch": 1.0,
+      "eval_cer": 0.5648425787106447,
+      "eval_loss": 1.1545711755752563,
+      "eval_runtime": 854.7225,
+      "eval_samples_per_second": 0.058,
+      "eval_steps_per_second": 0.008,
+      "eval_wer": 1.0986666666666667,
+      "step": 25
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 125,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 5.7971884032e+16,
+  "train_batch_size": 2,
+  "trial_name": null,
+  "trial_params": null
+}

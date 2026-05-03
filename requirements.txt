@@ -13,3 +13,5 @@ peft
 accelerate
 matplotlib
 ipykernel
+tqdm
+ipywidgets
