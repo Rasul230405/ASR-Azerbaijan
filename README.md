@@ -35,7 +35,7 @@ Test nəticələri:
 
 ## Repository Strukturu
 ```text
-az-stt-intern/
+az_stt_intern/
 ├── README.md            # Qısa izahat + nəticələr
 ├── part_a/              # Hissə A 
 ├── part_b/              # Hissə B kodları və model
