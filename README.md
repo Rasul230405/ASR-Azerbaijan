@@ -47,6 +47,8 @@ az-stt-intern/
 
 ## Kodu İşə Salmaq Üçün Addımlar (Setup & Run)
 
+**'Conda' cihazınızda quraşdırılmış olmalıdır.**
+
 **1. Repository-ni klonlayın:**
 
 SSH:
@@ -64,16 +66,9 @@ cd az_stt_intern
 
 **2. Virtual mühit yaradın və aktivləşdirin:**
 
-Linux/MacOS üçün:
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-Windows üçün:
-```bash
-python3 -m venv venv
-venv\Scripts\activate
+conda create -n az-asr python=3.10
+conda activate az-asr
 ```
 
 **3. Tələb olunan dependency-ləri quraşdırın:**
