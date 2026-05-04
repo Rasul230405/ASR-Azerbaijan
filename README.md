@@ -79,11 +79,12 @@ pip install -r requirements.txt
 **4. Skriptləri run etmək üçün:**
 Bu mərhələdə sadəcə Jupyter Notebook və yaxud VS Code-dan istifadə edərək scriptləri run edə bilərsiniz.
 
-**Baza modelin testi:**
+**Baza modelin testi:**     
 part_a/part_A.ipynb
 
 **Fine-Tuning:**    
 part_b/part_b1_2.ipynb
 
-**Fine-Tune edilmiş modelin testi:**
+**Fine-Tune edilmiş modelin testi:** 
+        
 part_b/part_b3.ipynb
